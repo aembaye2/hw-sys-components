@@ -1,0 +1,52 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  /* margin: 10px 15px 0px 25px; top right bottom left */
+  background: transparent;
+}
+
+/* canvas {
+   border: 2px solid black; 
+  border-radius: 5px;  
+} */
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 5vh; /* Full viewport height if 100 */
+}
+
+canvas {
+  display: block; /* Ensure the canvas is a block element */
+  margin: 0; /* Center the canvas horizontally */
+  padding: 0; /* Ensure no padding */
+}
+
+form > div {
+  clear: both; /* Clear any floating elements */
+  margin-bottom: 20px; /* Add some space between form elements */
+}
+
+form > div:last-child {
+  margin-bottom: 0; /* Remove margin from the last form element */
+}
+
+form > div > div {
+  margin-bottom: 10px; /* Add some space between inner div elements */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
