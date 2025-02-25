@@ -1,13 +1,9 @@
 {
-  "name": "react-econ33303-app",
-  "version": "1.0",
-  "private": true,
-  "homepage": "https://aembaye2.github.io/Econ33303-app",
+  "name": "hw-sys-components",
+  "version": "1.0.0",
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
